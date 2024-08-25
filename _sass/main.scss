@@ -1,0 +1,108 @@
+/* Generic */
+body {
+	text-align: center;
+	margin: 0;
+	background-color: #EEE;
+	font: 12px/1.5 "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
+	color:#333;
+	background: transparent;
+}
+h1 {
+	font-size: 1.4em;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 1.1em;
+}
+
+h5 {
+	font-size: 1.0em;
+}
+
+p {
+	margin: 1em 0;
+}
+
+a {
+	color: #00a;
+	text-decoration: none;
+	font: normal;
+}
+
+a:hover {
+	color: #000000;
+	font: bold;
+}
+
+a:visited {
+	color: #a0a;
+	font: normal;
+}
+
+table {
+	font-size: inherit;
+	font: 100%;
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 2em;
+}
+
+ul li {
+	line-height: 1.75em;
+}
+
+ul span {
+	color: #aaa;
+	font-family: Menlo, Monaco, Consolas, monospace;
+	font-size: 1em;
+}
+html {
+	background:#dbdbdb;
+}
+.current {
+    color: green;
+}
+/*Container*/
+#container {
+	font-size: 1.1em;
+	text-align: left;
+	padding: 1em 2.5em;
+	margin: 2em auto 2em auto;
+	line-height: 1.5em;
+	width: 40%;
+}
+/*Page*/
+#page {
+	background-color: #f8feff;
+	border: 1px solid #6f6f6f;
+	float: left;
+	margin-top: 1em;
+	padding: 1em 2em;
+	width: 95%;
+}
+/*Course*/
+.course {
+	ul span {
+		color: #aaa;
+		font-family: Menlo, Monaco, Consolas, monospace;
+		font-size: 2em;
+	}
+}
+/*Site*/
+.site {
+    font-size: 110%;
+    text-align: justify;
+    width: 42em;
+    margin: 3em auto 2em auto;
+    line-height: 1.5em;
+  }

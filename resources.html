@@ -1,0 +1,23 @@
+---
+title: Courses
+---
+<h1>Courses</h1>
+<h3>A collection of data science related resources and other topics</h3>
+<h3>Python resources</h3>
+<ul>
+    {% assign python_posts = site.courses | where: 'courseType', "python" %}
+    {% for post in python_posts %}
+    <li>
+        <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
+    </li>
+    {% endfor %}
+</ul>
+<h3>Database resources</h3>
+<ul>
+    {% assign sql_posts = site.courses | where: 'courseType', "SQL" %}
+    {% for post in sql_posts %}
+    <li>
+        <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
+    </li>
+    {% endfor %}
+</ul>

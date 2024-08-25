@@ -1,0 +1,21 @@
+collections:
+  courses:
+    output: true
+  courseType:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "resources"
+    values:
+      layout: "resources"
