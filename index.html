@@ -11,14 +11,19 @@ title: Home
 </head>
 
 <body>
-    <h3>Information string about stuff</h3>
+    <p>
+        This is a collection of writings on stuff that interests me.<br>
+        You can find all posts on the blog page,
+        while the resources page contains basic learning resources.<br>
+        I mostly focus on data analysis and related topics.
+    </p>
     <h3><a href="blog.html">Recent Posts</a></h3>
     <ul class="posts">
         {% for post in site.posts limit:5 %}
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
-    <h3><a href="courses.html">Learning Resources</a></h3>
+    <h3><a href="resources.html">Learning Resources</a></h3>
     <ul class="course">
         {% for course in site.courses limit:5 %}
         <li><a href="{{ course.url }}">{{ course.title }}</a></li>
