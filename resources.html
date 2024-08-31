@@ -3,7 +3,9 @@ title: Courses
 ---
 <h1>Courses</h1>
 <h3>A collection of data science related resources and other topics</h3>
-<h3>Python resources</h3>
+<h3>
+    <a href="courseType/python.html"> Python resources</a>
+</h3>
 <ul>
     {% assign python_posts = site.courses | where: 'courseType', "python" %}
     {% for post in python_posts %}
@@ -12,7 +14,7 @@ title: Courses
     </li>
     {% endfor %}
 </ul>
-<h3>Database resources</h3>
+<h3><a href="courseType/SQL.html"> Database resources</a></h3>
 <ul>
     {% assign sql_posts = site.courses | where: 'courseType', "SQL" %}
     {% for post in sql_posts %}
