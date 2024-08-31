@@ -3,10 +3,11 @@ body {
 	text-align: center;
 	margin: 0;
 	background-color: #EEE;
-	font: 12px/1.5 "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
+	font: 14px/1.5 "Lucida Grande", Geneva, Arial, Verdana, sans-serif;
 	color:#333;
 	background: transparent;
 }
+
 h1 {
 	font-size: 1.4em;
 }
@@ -82,15 +83,21 @@ a.current {
 	margin: 2em auto 2em auto;
 	line-height: 1.5em;
 	width: 70%;
-	max-width: 700px;
+	max-width: 800px;
 }
+@media (max-width: 600px) {
+    #container {
+        width: 75%; 
+    }
+}
+
 /*Page*/
 #page {
 	background-color: #f8feff;
 	border: 1px solid #6f6f6f;
 	float: left;
 	margin-top: 1em;
-	padding: 1em 2em;
+	padding: 1em;
 	width: 95%;
 }
 /*Course*/
