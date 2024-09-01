@@ -19,3 +19,6 @@ defaults:
       type: "resources"
     values:
       layout: "resources"
+
+markdown: kramdown
+highlighter: rouge

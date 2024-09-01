@@ -1,0 +1,41 @@
+Indexes using SSMS:
+    What are indexes
+    How are they made
+    What is happening under the hood
+    What kind of indexes exists
+    When to use which ones
+    Graphs showing performance of update, insert and retrievel time under different indexes
+    Important to show how it evolves over time
+
+Writing a simple database from scratch:
+    REPL
+    Commands
+    Data storage
+    Binary format
+    Cursor
+    Statements
+
+Writing a dataframe like functionality from scratch (i.e. pandas):
+    For example in pure python, show how to implement core pandas functionality
+    Will give insights into type inference, aggregation functions, group bys, joins etc
+    Columns and indexes are the main thing that also should exist to let data be fetched
+
+Linear optimization:
+    What is linear optimization and linear programming
+    Using pyomo models in practice for linear optimization
+    Show an interesting day to day problem and how we can solve it
+    Show how we can add more constraints to the problem
+
+Pensions and the impact of risk weighting over time:
+    Assume some lognormal random walk with drift
+    Run simulations and show how different weights with different time periods behave
+    Show why index funds are optimal
+
+Index funds versus active:
+    Gather data on index funds and active funds and show gains versus costs historically
+    Should show how active funds shut-down when doing poorly and how index funds are optimal decision
+    Argue for index funds plus risk free activa where possible
+
+Modeling basic economical principles and simulating it:
+
+Writing a SSMS driver from scratch to be used with python:

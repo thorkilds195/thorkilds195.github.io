@@ -75,6 +75,10 @@ a.current {
 		text-decoration: underline;
 	
 }
+.copy-code-button {
+	display: block;
+  }
+
 /*Container*/
 #container {
 	font-size: 1.1em;
@@ -116,3 +120,37 @@ a.current {
     margin: 3em auto 2em auto;
     line-height: 1.5em;
   }
+
+.copy-code-button {
+    position: absolute;
+    top: 5%;
+    left: 80%; 
+    text-align: center;
+	background-color: #333333;
+    border: none;
+    cursor: pointer;
+    z-index: 1; /* Ensure the button stays above the code block */
+	min-width: 60px;
+	max-width: 120px;
+	height: 30px;
+	border-radius: 4px;
+	white-space: nowrap;
+	width: auto;
+}
+
+.copy-code-button:hover {
+    background-color: #ccc; /* Optional: Change color on hover */
+}
+
+pre {
+    margin: 0; /* Remove default margin to avoid unwanted spacing */
+    background: #282828; /* Code background color */
+    color: white; /* Text color */
+    padding: 15px; /* Adjust padding for inner spacing */
+    overflow: auto; /* Handle overflow if code is too wide */
+    border-radius: 4px; /* Optional: Rounded corners for the code block */
+}
+.highlight {
+    position: relative; /* Ensure the container is the reference point for absolute positioning */
+    padding: 1em;
+}
