@@ -97,7 +97,7 @@ a.current {
 
 /*Page*/
 #page {
-	background-color: #f8feff;
+	background-color: #FFFFFF;
 	border: 1px solid #6f6f6f;
 	float: left;
 	margin-top: 1em;
@@ -126,7 +126,7 @@ a.current {
     top: 5%;
     left: 80%; 
     text-align: center;
-	background-color: #333333;
+	background-color: #676464;
     border: none;
     cursor: pointer;
     z-index: 1; /* Ensure the button stays above the code block */
@@ -153,4 +153,17 @@ pre {
 .highlight {
     position: relative; /* Ensure the container is the reference point for absolute positioning */
     padding: 1em;
+}
+
+img[alt=image] { 
+	width: 95%;
+	max-width: 700px;
+}
+
+.mbtablestyle {
+	border-collapse: collapse;
+
+> table, td, th {
+	border: 1px solid black;
+	}
 }

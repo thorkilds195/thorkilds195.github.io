@@ -23,7 +23,7 @@ title: Home
         <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
         {% endfor %}
     </ul>
-    <h3><a href="resources.html">Learning Resources</a></h3>
+    <h3><a href="resources.html">Learning Resources (WIP)</a></h3>
     <ul class="course">
         {% for course in site.courses limit:5 %}
         <li><a href="{{ course.url }}">{{ course.title }}</a></li>
